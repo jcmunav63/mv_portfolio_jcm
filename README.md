@@ -122,6 +122,9 @@ To run tests, run the following command:
   npx eslint . --fix
 ```
 
+
+<!-- PROJECT DEPLOYMENT -->
+
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 🚀 Live Demo
@@ -129,10 +132,10 @@ Link to our deployed project.
 
 - https://jcmunav63.github.io/mv_portfolio_jcm/
 
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Juan Carlos Muñoz**
 
@@ -140,12 +143,8 @@ Link to our deployed project.
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-fullstackdev/)
 
-👤 **El Mehdi Ahmidou**
-- GitHub: [@ahmidou09](https://github.com/ahmidou09)
-- Twitter: [@el_ahmidou](https://twitter.com/el_ahmidou)
-- LinkedIn: [el mehdi ahmidou](https://www.linkedin.com/in/el-mehdi-ahmidou-312590125/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- FUTURE FEATURES -->
 
