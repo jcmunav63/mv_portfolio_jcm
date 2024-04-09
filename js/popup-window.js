@@ -3,12 +3,16 @@ const array = [{
   title2: 'Book an appointment',
   imagemov: '"./images/job1b.png"',
   imagedesk: '"./images/job1.png"',
-  work1: ['RAILS, REACT', 'Full Stack Dev', '2024'],
-  work2: ['RAILS, REACT', 'Full Stack Dev', '2024'],
+  work1: ['RAILS/REACT', 'FULL STACK DEV', '2024'],
+  work2: ['RAILS/REACT', 'FULL STACK DEV', '2024'],
   descr1: 'A useful application for managing coworking spaces and their reservations.',
   descr2: 'A useful application for managing coworking spaces and their reservations.',
-  techstack1: ['Ruby on Rails', 'React', 'PostgreSQL/API'],
-  techstack2: ['Rails', 'React', 'Redux', 'PostgreSQL/API'],
+  techstack1: ['RAILS', 'REACT', 'PostgreSQL/API'],
+  techstack2: ['RAILS', 'REACT', 'REDUX', 'PostgreSQL/API'],
+  github: 'https://github.com/jcmunav63/book-an-appointment-front-end-mv-final-capstone',
+  live: 'https://jcmunav63.github.io/book-an-appointment-front-end-mv-final-capstone/',
+  paragraph1: 'A useful application for managing coworking spaces and their reservations. Create or delete spaces, display their details, and create or delete reservations.',
+  paragraph2: 'A project with two repos, front-end and back-end, for displaying the "Book An Appointment" web app. It is developed for the Final Capstone Project of the Microverse Full-Stack Developer program. This project uses React & Redux on the front-end and Ruby on Rails, API endpoints, and a PostgreSQL database.',
   id: '1',
 },
 
@@ -17,12 +21,16 @@ const array = [{
   title2: 'Metrics App - NYC High Schools',
   imagemov: '"./images/job2b.png"',
   imagedesk: '"./images/job2.png"',
-  work1: ['REACT, REDUX', 'Front End Dev', '2023'],
-  work2: ['REACT, REDUX', 'Front End Dev', '2023'],
+  work1: ['REACT/REDUX', 'FRONT END DEV', '2023'],
+  work2: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   descr1: 'A practic application for displaying and finding information of NY City High Schools.',
   descr2: 'A practic application for displaying and finding information of NY City High Schools.',
-  techstack1: ['HTML/CSS', 'JavaScript', 'React/API'],
-  techstack2: ['HTML', 'CSS', 'JavaScript', 'React/API'],
+  techstack1: ['HTML/CSS', 'JAVASCRIPT', 'REACT/API'],
+  techstack2: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT/API'],
+  github: 'https://github.com/jcmunav63/metrics_app_m3',
+  live: 'https://metrics-app-nyc-schools.onrender.com/',
+  paragraph1: 'A useful application for displaying and searching information from the 2017 High School Directory of New York City\'s 5 boroughs. Displays a list of schools for every borough and then displays the datailed information of the selected school. It can also use an efficient search bar.',
+  paragraph2: 'A project for displaying the "Metrics App - New York City High Schools" web app. It was developed as the Capstone Project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Reduxa as well as JavaScript and a public API from the NYC OpenData website. The app get access to the 2017 DOE High School Directory dataset.',
   id: '2',
 },
 
@@ -31,12 +39,16 @@ const array = [{
   title2: "Space Travelers' Hub",
   imagemov: '"./images/job3b.png"',
   imagedesk: '"./images/job3.png"',
-  work1: ['REACT, REDUX', 'Front End Dev', '2023'],
-  work2: ['REACT/REDUX', 'Front End Dev', '2023'],
+  work1: ['REACT/REDUX', 'FRONT END DEV', '2023'],
+  work2: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   descr1: 'An awesome application for reserving rockets and joining space misssions with Space X.',
   descr2: 'An awesome application for reserving rockets and joining space misssions with Space X.',
-  techstack1: ['HTML/CSS', 'JavaScript', 'React/API'],
-  techstack2: ['HTML', 'CSS', 'JavaScript', 'React/API'],
+  techstack1: ['HTML/CSS', 'JAVASCRIPT', 'REACT/API'],
+  techstack2: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT/API'],
+  github: 'https://github.com/jcmunav63/space-missions-and-rockets',
+  live: 'https://space-missions-and-rockets.onrender.com/',
+  paragraph1: 'A useful application for displaying and searching information from the 2017 High School Directory of New York City\'s 5 boroughs. Displays a list of schools for every borough and then displays the datailed information of the selected school. It can also use an efficient search bar.',
+  paragraph2: 'A project for displaying the "Metrics App - New York City High Schools" web app. It was developed as the Capstone Project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Reduxa as well as JavaScript and a public API from the NYC OpenData website. The app get access to the 2017 DOE High School Directory dataset.',
   id: '3',
 },
 
@@ -45,12 +57,14 @@ const array = [{
   title2: 'Math Magicians',
   imagemov: '"./images/job4b.png"',
   imagedesk: '"./images/job4.png"',
-  work1: ['REACT, REDUX', 'Front End Dev', '2023'],
-  work2: ['REACT, REDUX', 'Front End Dev', '2023'],
+  work1: ['REACT/REDUX', 'FRONT END DEV', '2023'],
+  work2: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   descr1: 'A simple calculator application with some random education quotes.',
   descr2: 'A simple calculator application with some random education quotes.',
-  techstack1: ['HTML/CSS', 'JavaScript', 'React/API'],
-  techstack2: ['HTML', 'CSS', 'JavaScript', 'React/API'],
+  techstack1: ['HTML/CSS', 'JAVASCRIPT', 'REACT/API'],
+  techstack2: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT/API'],
+  github: 'https://github.com/jcmunav63/math-magicians-app',
+  live: 'https://math-magicians2-bn5i.onrender.com/',
   id: '4',
 },
 ];
@@ -162,8 +176,8 @@ function loadModal(buttonId) {
         <li><p class="stack poppins">${array[buttonId - 1].techstack1[2]}</p></li>
       </ul>
       <div class="btn-box">
-        <a href="https://jcmunav63.github.io/mv_portfolio2/" class="linkButton see-project2 poppins" target="_blank" id="">See live<img src="./images/live-button.png" class="img-inbtn"></a>
-        <a href="https://github.com/jcmunav63/mv_portfolio2" class="linkButton see-project2 poppins" target="_blank" id="">See source<img src="./images/github-button.svg" class="img-inbtn" height="18px" width="18px"></a>
+        <a href=${array[buttonId - 1].live} class="linkButton see-project2 poppins" target="_blank" id="">See live<img src="./images/live-button.png" class="img-inbtn"></a>
+        <a href=${array[buttonId - 1].github} class="linkButton see-project2 poppins" target="_blank" id="">See source<img src="./images/github-button.svg" class="img-inbtn" height="18px" width="18px"></a>
       </div>
     </div>`;
     detail.insertAdjacentHTML('afterbegin', html);
@@ -182,11 +196,8 @@ function loadModal(buttonId) {
     <img class="img" alt="work1" width="" height="" src=${array[buttonId - 1].imagedesk}/>
     <div class="grid-1c">
       <div class="box">
-        <p class="para poppins">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indsutry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it 1960s. Lorem ipsum dolor is simply dummy text of the printing and typesetting industry.</p>
-        <p class="para poppins">Lorem ipsum dolor is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indsutry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it 1960s with the releorem. Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took 
-        a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p>
+        <p class="para poppins">${array[buttonId - 1].paragraph1}</p>
+        <p class="para poppins">${array[buttonId - 1].paragraph2}</p>
       </div>
       <div class="box4">
         <ul class="flex2a">
@@ -196,8 +207,8 @@ function loadModal(buttonId) {
           <li><p class="stack poppins">${array[buttonId - 1].techstack2[3]}</p></li>
         </ul>
         <div class="btn-box">
-          <a href="https://jcmunav63.github.io/mv_portfolio2/" class="linkButton see-project2 poppins" target="_blank" id="">See live<img src="./images/live-button.png" class="img-inbtn" height="18px" width="18px"></a>
-          <a href="https://github.com/jcmunav63/mv_portfolio2" class="linkButton see-project2 poppins" target="_blank" id="">See source<img src="./images/github-button.svg" class="img-inbtn" height="18px" width="18px"></a>
+          <a href="${array[buttonId - 1].live}" class="linkButton see-project2 poppins" target="_blank" id="">See live<img src="./images/live-button.png" class="img-inbtn" height="18px" width="18px"></a>
+          <a href=${array[buttonId - 1].github} class="linkButton see-project2 poppins" target="_blank" id="">See source<img src="./images/github-button.svg" class="img-inbtn" height="18px" width="18px"></a>
         </div>
       </div>
     </div>`;

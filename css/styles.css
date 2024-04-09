@@ -151,6 +151,10 @@
     text-align: justify;
   }
 
+  .construction {
+    margin-left: 5%;
+  }
+
   .connect {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -181,6 +185,16 @@
   }
 
   /* Section Works */
+
+  .portfolio-title {
+    color: #172b4d;
+    padding-top: 20px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-left: 10%;
+  }
+
   .works {
     width: 100%;
   }
