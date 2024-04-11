@@ -12,7 +12,7 @@ const array = [{
   github: 'https://github.com/jcmunav63/book-an-appointment-front-end-mv-final-capstone',
   live: 'https://jcmunav63.github.io/book-an-appointment-front-end-mv-final-capstone/',
   paragraph1: 'A useful application for managing coworking spaces and their reservations. Create or delete spaces, display their details, and create or delete reservations.',
-  paragraph2: 'A project with two repos, front-end and back-end, for displaying the "Book An Appointment" web app. It is developed for the Final Capstone Project of the Microverse Full-Stack Developer program. This project uses React & Redux on the front-end and Ruby on Rails, API endpoints, and a PostgreSQL database.',
+  paragraph2: 'A project with two repos, front-end and back-end, for displaying the "Book An Appointment" web app. It is developed for the Final Capstone Project of the Microverse Full-Stack Developer program. This project uses React & Redux on the front-end and Ruby on Rails, API endpoints, and a PostgreSQL database on the back-end.',
   id: '1',
 },
 
@@ -30,7 +30,7 @@ const array = [{
   github: 'https://github.com/jcmunav63/metrics_app_m3',
   live: 'https://metrics-app-nyc-schools.onrender.com/',
   paragraph1: 'A useful application for displaying and searching information from the 2017 High School Directory of New York City\'s 5 boroughs. Displays a list of schools for every borough and then displays the datailed information of the selected school. It can also use an efficient search bar.',
-  paragraph2: 'A project for displaying the "Metrics App - New York City High Schools" web app. It was developed as the Capstone Project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Reduxa as well as JavaScript and a public API from the NYC OpenData website. The app get access to the 2017 DOE High School Directory dataset.',
+  paragraph2: 'A project for displaying the "Metrics App - New York City High Schools" web app. It was developed as the Capstone Project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Redux as well as JavaScript and a public API from the NYC OpenData website. The app get access to the 2017 DOE High School Directory dataset.',
   id: '2',
 },
 
@@ -47,8 +47,8 @@ const array = [{
   techstack2: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT/API'],
   github: 'https://github.com/jcmunav63/space-missions-and-rockets',
   live: 'https://space-missions-and-rockets.onrender.com/',
-  paragraph1: 'A useful application for displaying and searching information from the 2017 High School Directory of New York City\'s 5 boroughs. Displays a list of schools for every borough and then displays the datailed information of the selected school. It can also use an efficient search bar.',
-  paragraph2: 'A project for displaying the "Metrics App - New York City High Schools" web app. It was developed as the Capstone Project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Reduxa as well as JavaScript and a public API from the NYC OpenData website. The app get access to the 2017 DOE High School Directory dataset.',
+  paragraph1: 'A useful application for displaying information from Space X rockets and missions. It also lets the user to reserve rockets, to join space missions and displays a page that show a list of all reserved rockets and another list with all joined missions. The user can cancel reservations or leave missions.',
+  paragraph2: 'It\'s a project for displaying Space X rockets, space missions and a list of the current user\'s reserved rockets and joined missions. It was developed as the Group Project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Redux as well as JavaScript and a public API from the Space X website.',
   id: '3',
 },
 
@@ -65,6 +65,8 @@ const array = [{
   techstack2: ['HTML', 'CSS', 'JAVASCRIPT', 'REACT/API'],
   github: 'https://github.com/jcmunav63/math-magicians-app',
   live: 'https://math-magicians2-bn5i.onrender.com/',
+  paragraph1: 'A useful application for displaying a basic website with three pages, a Welcome page, a Calculator page, and a Random Quote page (education quotes). The user can interact with the calculator to perform some basic arithmetic calculations.',
+  paragraph2: 'It\'s a project for displaying a simple React web site with three pages, a Welcome page, a Calculator page, and a Random Quote page. It was developed as an individual project for the React-Redux module of the Microverse Full-Stack Developer program. This project uses React & Redux as well as JavaScript and a public API to get the quotes.',
   id: '4',
 },
 ];
@@ -165,11 +167,8 @@ function loadModal(buttonId) {
     </ul>
     <img class="img" alt="work1" width="" height="" src=${array[buttonId - 1].imagemov}/>
     <div class="box">
-      <p class="para poppins">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indsutry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it 1960s. Lorem ipsum dolor is simply dummy text of the printing and typesetting industry.</p>
-      <p class="para poppins">Lorem ipsum dolor is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indsutry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it 1960s with the releorem. Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took 
-      a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p>
+      <p class="para poppins">${array[buttonId - 1].paragraph1}</p>
+      <p class="para poppins">${array[buttonId - 1].paragraph2}</p>
       <ul class="flex2a">
         <li><p class="stack poppins">${array[buttonId - 1].techstack1[0]}</p></li>
         <li><p class="stack poppins">${array[buttonId - 1].techstack1[1]}</p></li>
