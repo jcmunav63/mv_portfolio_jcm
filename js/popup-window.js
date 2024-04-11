@@ -1,8 +1,8 @@
 const array = [{
   title1: 'Book an appointment',
   title2: 'Book an appointment',
-  imagemov: '"./images/job1b.png"',
-  imagedesk: '"./images/job1.png"',
+  imagemov: '"./images/job1b.webp"',
+  imagedesk: '"./images/job1.webp"',
   work1: ['RAILS/REACT', 'FULL STACK DEV', '2024'],
   work2: ['RAILS/REACT', 'FULL STACK DEV', '2024'],
   descr1: 'A useful application for managing coworking spaces and their reservations.',
@@ -19,8 +19,8 @@ const array = [{
 {
   title1: 'Metrics App - NYC High Schools',
   title2: 'Metrics App - NYC High Schools',
-  imagemov: '"./images/job2b.png"',
-  imagedesk: '"./images/job2.png"',
+  imagemov: '"./images/job2b.webp"',
+  imagedesk: '"./images/job2.webp"',
   work1: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   work2: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   descr1: 'A practic application for displaying and finding information of NY City High Schools.',
@@ -37,8 +37,8 @@ const array = [{
 {
   title1: "Space Travelers' Hub",
   title2: "Space Travelers' Hub",
-  imagemov: '"./images/job3b.png"',
-  imagedesk: '"./images/job3.png"',
+  imagemov: '"./images/job3b.webp"',
+  imagedesk: '"./images/job3.webp"',
   work1: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   work2: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   descr1: 'An awesome application for reserving rockets and joining space misssions with Space X.',
@@ -55,8 +55,8 @@ const array = [{
 {
   title1: 'Math Magicians',
   title2: 'Math Magicians',
-  imagemov: '"./images/job4b.png"',
-  imagedesk: '"./images/job4.png"',
+  imagemov: '"./images/job4b.webp"',
+  imagedesk: '"./images/job4.webp"',
   work1: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   work2: ['REACT/REDUX', 'FRONT END DEV', '2023'],
   descr1: 'A simple calculator application with some random education quotes.',
