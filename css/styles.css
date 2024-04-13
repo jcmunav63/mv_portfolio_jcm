@@ -597,8 +597,8 @@
   }
 
   .arrow-right {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background-color: #fff;
     background-blend-mode: multiply;
     vertical-align: middle;
@@ -619,7 +619,9 @@
 
   .js,
   .html5,
-  .css3 {
+  .css3,
+  .ruby,
+  .php {
     font-size: 15px;
     color: #253858;
     font-weight: 500;
@@ -639,6 +641,55 @@
     padding: 4px;
   }
 
+  .ruby-img {
+    width: 15%;
+    height: auto;
+    padding: 9px 4px;
+  }
+
+  .php-img {
+    width: 20%;
+    height: auto;
+    padding: 9px 4px;
+  }
+
+  .skill-row {
+    font-size: 16px;
+    color: #253858;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 10%;
+    margin-top: 5px;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  summary {
+    display: flex;
+    margin-left: 10%;
+  }
+
+  summary::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url("images/right-arrow.png");
+    background-size: cover;
+    margin-left: 200px;
+    transition: 0.2s;
+  }
+
+  details[open] > summary::after {
+    transform: rotate(270deg);
+  }
+
+  .summ {
+    min-width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
   /* Contact form section */
   #foot {
     box-sizing: border-box;
@@ -649,6 +700,7 @@
     background-position: 0% 1.5%;
     background-size: 100%;
     margin-bottom: 25px;
+    margin-top: 100px;
   }
 
   #contactf {
@@ -1528,7 +1580,10 @@
 
   .js,
   .html5,
-  .css3 {
+  .css3,
+  .ruby,
+  .rails,
+  .php {
     font-size: 15px;
     color: #253858;
     font-weight: 500;
@@ -1538,12 +1593,75 @@
     padding-left: 4px;
   }
 
+  .skill-row {
+    font-size: 16px;
+    color: #253858;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 350px;
+    vertical-align: middle;
+    padding-left: 4px;
+  }
+
+  summary {
+    display: flex;
+  }
+
+  summary::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url("images/right-arrow.png");
+    background-size: cover;
+    margin-left: 400px;
+    transition: 0.2s;
+  }
+  
+  details[open] > summary::after {
+    transform: rotate(270deg);
+  }
+
+  .summ {
+    min-width: 500px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
   .js-img,
   .html5-img,
   .css3-img {
     width: 40%;
     height: auto;
     padding: 4px;
+  }
+
+  .react-img,
+  .redux-img,
+  .laravel-img {
+    width: 47%;
+    height: auto;
+    padding: 4px;
+  }
+
+  .rails-img {
+    width: 24%;
+    height: auto;
+    padding: 5px 4px;
+  }
+
+  .ruby-img {
+    width: 30%;
+    height: auto;
+    padding: 9px 4px;
+  }
+
+  .php-img {
+    width: 45%;
+    height: auto;
+    padding: 9px 4px;
   }
 
   .resume-text {
